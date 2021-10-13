@@ -24,7 +24,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # Create a list of word
-text = ("Python Python Python Matplotlib Matplotlib Seaborn Network Plot Violin Chart Pandas Datascience Wordcloud Spider Radar Parrallel Alpha Color Brewer Density Scatter Barplot Barplot Boxplot Violinplot Treemap Stacked Area Chart Chart Visualization Dataviz Donut Pie Time-Series Wordcloud Wordcloud Sankey Bubble")
+text = ("As the COVID-19 pandemic raged across the United States, scientists and health care workers made it clear that there was only one way to avoid the virus: stay home")
 
 # Create the wordcloud object
 wordcloud = WordCloud(width=480, height=480, margin=0).generate(text)
